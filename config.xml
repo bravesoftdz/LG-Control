@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root>
-	<Config ID="0" COM="COM4" Left="562" Top="145" Source="9" Delay="250"/>
+	<Config ID="0" COM="COM4" Left="521" Top="85" Source="9" Delay="250"/>
 	<Autodetect Question="mc 0 FF" Answer="c 01 NGffx"/>
 	<Sources>
 		<src1 Name="Analog" Code="xb %ID 10"/>
