@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+	<Config ID="0" COM="COM4" Left="562" Top="145" Source="9" Delay="250"/>
+	<Autodetect Question="mc 0 FF" Answer="c 01 NGffx"/>
+	<Sources>
+		<src1 Name="Analog" Code="xb %ID 10"/>
+		<src2 Name="Cable" Code="xb %ID 00"/>
+		<src3 Name="DTV" Code="xb %ID 01"/>
+		<src4 Name="Component" Code="xb %ID 40"/>
+		<src5 Name="AV1" Code="xb %ID 20"/>
+		<src6 Name="AV2" Code="xb %ID 21"/>
+		<src7 Name="AV3" Code="xb %ID 22"/>
+		<src8 Name="RGB" Code="xb %ID 60"/>
+		<src9 Name="DVI" Code="xb %ID 80"/>
+		<src10 Name="HDMI1" Code="xb %ID 90"/>
+		<src11 Name="HDMI2" Code="xb %ID 91"/>
+	</Sources>
+	<Buttons>
+		<Power Name="Power" Code="mc %ID 08"/>
+		<Sleep Name="Sleep" Code="mc %ID 0E"/>
+		<Input Name="Input" Code="mc %ID 0B"/>
+		<Back Name="Back" Code="mc %ID 1A"/>
+		<Exit Name="Exit" Code="mc %ID 5B"/>
+		<Picture Name="Picture" Code="mc %ID 4D"/>
+		<Sound Name="Sound" Code="mc %ID 52"/>
+		<Adjust Name="Adjust" Code="mc %ID CB"/>
+		<SAP Name="Sap" Code="mc %ID 0A"/>
+		<Menu Name="Menu" Code="mc %ID 43"/>
+		<CC Name="CC" Code="mc %ID 29"/>
+		<Favorite Name="Fav" Code="mc %ID 1E"/>
+		<VolDown Name="Vol-" Code="mc %ID 03"/>
+		<VolUp Name="Vol+" Code="mc %ID 02"/>
+		<ChnlUp Name="Ch+" Code="mc %ID 00"/>
+		<ChnlDown Name="Ch-" Code="mc %ID 01"/>
+		<TV Name="TV" Code="mc %ID 0F"/>
+		<Minus Name="Q Menu" Code="mc %ID 45"/>
+		<!--Minus Name="minus" Code="mc %ID 4C"/-->
+		<Mute Name="Mute" Code="mc %ID 09"/>
+		<F43 Name="4:3" Code="mc %ID 76"/>
+		<F169 Name="16:9" Code="mc %ID 77"/>
+		<Zoom Name="Zoom" Code="mc %ID AF"/>
+		<Up Code="mc %ID 40"/>
+		<Down Code="mc %ID 41"/>
+		<Left Code="mc %ID 07"/>
+		<Right Code="mc %ID 06"/>
+		<Ok Code="mc %ID 44"/>
+	</Buttons>
+	<Custom>
+		<c1 Name="Power" Code="mc %ID 08"/>
+		<hdmo Name="HDMI" Code="xb %ID 90"/>
+		<dvi Name="DVI" Code="xb %ID 80"/>
+	</Custom>
+	<TrackBars>
+		<Contrast Name="Contrast" Min="0" Max="100" Code="kg %ID %s" Position="21"/>
+		<Brightness Name="Brightness" Min="0" Max="100" Code="kh %ID %s" Position="63"/>
+		<Color Name="Color" Min="0" Max="100" Code="ki %ID %s" Position="54"/>
+		<Tint Name="Tint" Min="0" Max="100" Code="kj %ID %s" Position="50"/>
+		<Sharpness Name="Sharpness" Min="0" Max="100" Code="kk %ID %s" Position="66"/>
+		<Treble Name="Treble" Min="0" Max="100" Code="kr %ID %s" Position="55"/>
+		<Bass Name="Bass" Min="0" Max="100" Code="ks %ID %s" Position="33"/>
+		<Balance Name="Balance" Min="0" Max="100" Code="kt %ID %s" Position="50"/>
+		<Volume Min="0" Max="100" Code="kf %ID %s" Position="0"/>
+	</TrackBars>
+</Root>
